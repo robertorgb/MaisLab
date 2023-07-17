@@ -22,7 +22,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v17.0" nonce="dmoH1V34"></script>
 <!--==================================== -->
 <div class="contato">
-    <a href="">
+    <a href="#">
         <span class="pulse btn rounded-pill">
             <i class="bi bi-whatsapp"></i>
             Contato
@@ -31,7 +31,7 @@
 </div>
 <nav id="containerFirstChild" class="boxshadow navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a style="width: 0;" class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img src="<?php echo DIRPAGE . 'lib/img/Logo.png'; ?>" alt="Logo MaisLab" width="120" height="auto">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
             <ul class="nav justify-content-center">
                 <div class="center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="quemsomos.php">
                             <span>QUEM SOMOS</span>
                         </a>
                     </li>
@@ -60,7 +60,7 @@
                 </li>
                 <div class="bar"></div>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="fac.php">
                         <span>FAC</span>
                     </a>
                 </li>
