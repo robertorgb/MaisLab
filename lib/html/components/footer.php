@@ -1,4 +1,4 @@
-<section>
+<section id="footer">
     <div style="width: 100%; align-items: center" class="bgroung py-3">
         <div class="d-flex flex-xs-column flex-sm-column flex-md-row flex-lg-row align-items-start px-sm-4 px-xs-4 m-auto h-100">
             <div class="col-ss-12 col-sm-12 col-md-5 col-lg-5 d-flex flex-column justify-content-center px-4 align-items-center">

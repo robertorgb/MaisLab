@@ -8,7 +8,5 @@ include DIRREQ . "lib/html/components/slide.php";
 include DIRREQ . "lib/html/components/sectionbox.php";
 include DIRREQ . "lib/html/components/servicos.php";
 include DIRREQ . "lib/html/components/map.php";
-// include(DIRREQ . "lib/html/components/sidebar/sidebar_right.php");
+include DIRREQ . "lib/html/components/footer.php";
 ?>
-
-<?php include DIRREQ . "lib/html/components/footer.php";?>
