@@ -9,6 +9,26 @@
   text-decoration: none;
 }
 
+.color-orange-ml {
+  color: "#eb8a00"
+}
+
+.bg-color-orange-ml {
+  background-color: #eb8a00
+}
+
+.text-orange-ml {
+  color: #eb8a00 !important
+}
+
+.text-green-ml {
+  color: #27aa7b !important
+}
+
+.m-section-100 {
+  margin-top: 100px;
+}
+
 /*==============================MaisLab=================================*/
 
 
@@ -19,6 +39,11 @@ font-family: 'Comfortaa', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 } */
+
+@font-face {
+  font-family: "simplybold";
+  src: url('lib\fonts\simply_rounded_bold.ttf');
+}
 
 /* Header */
 
@@ -665,11 +690,12 @@ a span:hover{
 
 
 /*==============================Quem Somos=================================*/
+#quemsomos{
+  padding: 10rem 0 5rem 0;
+}
+
 .centertxt{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  text-align: justify;
 }
 
 .centertxt .titulo{
@@ -678,28 +704,33 @@ a span:hover{
 
 .centertxt h1{
   font-size: 135px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  color: #27A47A;
 }
 
 .centertxt span{
   font-size: 20px;
-  width: 435px;
   text-align: left;
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  width: 26em;
+  color: #27A47A;
+}
+
+@media screen and (max-width: 1399px) {
+  .centertxt span{
+    width: 100%;
+  }
 }
 
 .centerimg{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 
 .imgcol{
-  width: 36rem;
-  height: 50vh;
-  margin: 10rem 0;
-  border-radius: 15%;
-  background-repeat: no-repeat!important;
-  background-size: cover!important;
-  background-position: center!important;
   max-width: 36rem;
   min-width: 36rem;
 }
@@ -719,81 +750,10 @@ a span:hover{
 
 /*==============================FAC=================================*/
 
-.accordion-item:first-of-type {
-  margin: 0 0 30px 0;
-}
 
+.accordion-button::after {
+  --bs-accordion-btn-icon: url("data:image/png xmlns='../img/favicon.png'");
+  --bs-accordion-btn-active-icon: url("data:image/png xmlns='../img/favicon.png'");
+
+}
 /*==============================FAC=================================*/
-
-/* #modoinsta {
-		
-  margin: 30px auto;
-      width: 50%;
- 
- }
-
- .instagram_wid {
-
-background: white;
- height: fit-content;
- border: 0px solid #ce0303;
- border-radius: 10px;
- box-shadow: 0px 0px 0 0 #ce0303;
- margin: 0;
- padding: 10px;
-   
-     }
- 
-.instagram-image {box-shadow: 0 0 0px 1px #e8e8e8;overflow: hidden;}
-.instagram-video {box-shadow: 0 0 0px 1px #e8e8e8;overflow: hidden;}
-
-.instagram-image:hover {
- 
-background: white;
- transform: scale(1.2);
- z-index: 1;
- box-shadow: 0px 0px 7px -1px black;
- border-radius: 10px;
- overflow: hidden;
- 
- }
-
-.instagram-sidecar {overflow: hidden;}
-
-.instagram-sidecar:hover {
-
- background: white;
- transform: scale(1.2);
- z-index: 1;
- box-shadow: 0px 0px 7px -1px black;
- border-radius: 10px;
- overflow: hidden;
-
-}
- 
-.instagram-video:hover {
- 
-background: white;
- transform: scale(1.2);
- z-index: 1;
- box-shadow: 0px 0px 7px -1px black;
- border-radius: 10px;
- overflow: hidden;
- 
- }
- 
-.instagram-video:hover::after {	
-
- content: "";
- background: url(https://drive.google.com/uc?export=download&id=100Gm3TgsZv83CrHwopPiNxU7sV4w5z4w) no-repeat;
- filter: invert(1) drop-shadow(0px 0px 2px black);
- background-size: contain;
- position: absolute;
- display: flex;
- width: 50%;
- height: 50%;
- top: 0;
- margin: 25%;
- overflow: hidden;
-
-} */

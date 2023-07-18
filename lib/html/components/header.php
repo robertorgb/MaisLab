@@ -22,7 +22,7 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v17.0" nonce="dmoH1V34"></script>
 <!--==================================== -->
 <div class="contato">
-    <a href="#">
+    <a href="#" class="text-decoration-none">
         <span class="pulse btn rounded-pill">
             <i class="bi bi-whatsapp"></i>
             Contato
@@ -54,7 +54,7 @@
                 </li>
                 <div class="bar"></div>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="servicos.php">
                         <span>SERVIÇOS</span>
                     </a>
                 </li>
